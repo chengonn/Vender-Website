@@ -1,0 +1,14 @@
+node_modules
+.next
+coverage
+package-lock.json
+next-env.d.ts
+*.tsbuildinfo
+docs/checks.json
+VENDOR_SYSTEM_SPEC.md
+docs/decisions.md
+
+/data/
+/docs/pre-api-backup/
+
+/.secrets/

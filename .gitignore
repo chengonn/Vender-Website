@@ -1,0 +1,13 @@
+node_modules/
+.next/
+out/
+coverage/
+*.tsbuildinfo
+.env*
+!.env.example
+*.log
+
+/data/
+/docs/pre-api-backup/
+
+/.secrets/

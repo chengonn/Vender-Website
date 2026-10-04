@@ -1,0 +1,46 @@
+[
+  {
+    "route": "/login",
+    "status": 200
+  },
+  {
+    "route": "/dashboard",
+    "status": 200
+  },
+  {
+    "route": "/orders",
+    "status": 200
+  },
+  {
+    "route": "/orders/new",
+    "status": 200
+  },
+  {
+    "route": "/orders/DEMO-001/edit",
+    "status": 200
+  },
+  {
+    "route": "/orders/DEMO-002",
+    "status": 200
+  },
+  {
+    "route": "/orders/DEMO-002/change-request",
+    "status": 200
+  },
+  {
+    "route": "/reconciliations",
+    "status": 200
+  },
+  {
+    "route": "/reconciliations/REC-DEMO-001",
+    "status": 200
+  },
+  {
+    "route": "/admin/orders",
+    "status": 200
+  },
+  {
+    "route": "/admin/orders/DEMO-002",
+    "status": 200
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "integrity": {
+    "integrity_check": "ok"
+  },
+  "foreignKeys": [],
+  "companies": {
+    "count": 3
+  },
+  "orders": {
+    "count": 6
+  }
+}

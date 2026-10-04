@@ -1,0 +1,10 @@
+{
+  "checkedAt": "2026-09-09T03:43:32.280Z",
+  "base": "http://127.0.0.1:3100",
+  "health": "passed",
+  "postLogin": "passed",
+  "postSupplier": "HSS0001",
+  "postReview": "passed",
+  "readBack": "passed",
+  "logout": "passed"
+}

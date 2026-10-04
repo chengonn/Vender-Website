@@ -1,0 +1,22 @@
+{
+  "checkedAt": "2026-09-10T06:13:02.766Z",
+  "url": "http://127.0.0.1:3100",
+  "companyId": "WOR1484",
+  "waitingReview": "ORD-f8c53f97-6414-4d34-85c2-df495ccdc947",
+  "waitingAccounting": "ORD-ba0e4ac3-c8cb-4c14-b451-25d6316e6733",
+  "closedOrder": "ORD-851aa089-53bb-4c22-a81e-86464a8de33b",
+  "statementId": "MONTH-1495d4d8-b873-46f0-9c26-c5c1b484b0e7",
+  "frontendTests": 25,
+  "backendTests": 32,
+  "http": "passed",
+  "databaseIntegrity": "ok",
+  "foreignKeys": "ok",
+  "deployed": false,
+  "finalExamplesVerifiedAt": "2026-09-10T08:07:46.832Z",
+  "browserChecks": [
+    "Accounting login/navigation",
+    "Accounting form fields and desktop layout",
+    "monthly statement detail and total",
+    "GSD login/navigation/list"
+  ]
+}
