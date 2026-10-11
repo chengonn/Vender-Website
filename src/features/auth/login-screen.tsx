@@ -8,6 +8,7 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import { ArrowRight, Eye, EyeOff } from "lucide-react";
 import { api } from "@/services/api-client";
 import { useDemo } from "@/context/demo-context";
+import { brand } from "@/config/brand";
 const schema = z.object({
   account: z.string().trim().min(1, "請輸入帳號"),
   password: z.string().min(1, "請輸入密碼"),
@@ -30,14 +31,15 @@ export function LoginScreen() {
       <section className="login-intro">
         <Image
           className="company-logo"
-          src="/grand-ocean-logo.jpg"
-          alt="泱宏公司 GRAND OCEAN LOGISTICS"
+          src={brand.logo}
+          alt={brand.logoAlt}
           width={140}
-          height={112}
+          height={140}
           unoptimized
         />
-        <h1>泱宏供應商平台</h1>
-        <p className="text-muted">GRAND OCEAN LOGISTICS</p>
+        <h1>{brand.portalName}</h1>
+        <p className="text-muted">{brand.englishName}</p>
+        <p className="text-muted mt-3">虛構品牌 · 面試作品展示</p>
       </section>
       <section className="login-form-area">
         <form
@@ -141,7 +143,7 @@ export function LoginScreen() {
           </p>
         </form>
       </section>
-      <p className="login-phase">GRAND OCEAN · VENDOR PORTAL</p>
+      <p className="login-phase">{brand.shortName} · VENDOR PORTAL DEMO</p>
     </main>
   );
 }

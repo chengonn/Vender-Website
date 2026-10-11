@@ -1,5 +1,7 @@
 "use client";
 import Link from "next/link";
+import Image from "next/image";
+import { brand } from "@/config/brand";
 import { usePathname, useRouter } from "next/navigation";
 import { useState, type ReactNode } from "react";
 import {
@@ -9,7 +11,6 @@ import {
   PanelLeftClose,
   PanelLeftOpen,
   LogOut,
-  Box,
   ChevronsUpDown,
   FlaskConical,
   ArrowUpRight,
@@ -95,10 +96,11 @@ export function AppShell({ children }: { children: ReactNode }) {
           className="brand"
         >
           <span className="brand-mark">
-            <Box size={25} />
+            <Image src={brand.logo} alt="" width={38} height={38} unoptimized />
           </span>
           <span>
-            VENDOR<span className="brand-sub">供應商協作平台</span>
+            {brand.shortName}
+            <span className="brand-sub">{brand.portalName}</span>
           </span>
         </Link>
         <div className="workspace-label">WORKSPACE</div>
@@ -201,7 +203,7 @@ export function AppShell({ children }: { children: ReactNode }) {
           {children}
         </main>
         <footer className="app-footer">
-          <span>Vendor Portal</span>
+          <span>{brand.name} · 虛構品牌 Demo</span>
           <span>初始模板 · 不提供正式帳務作業</span>
         </footer>
       </div>

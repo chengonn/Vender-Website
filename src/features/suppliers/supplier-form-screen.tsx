@@ -63,7 +63,7 @@ export function SupplierFormScreen() {
             <h2>公司與聯絡資料</h2>
             <p className="text-muted mb-4">
               公司英文名稱前三個英文字母大寫＋四位數字亂碼，例如
-              GRA4827；儲存時產生不重複代碼。
+              STA4827；儲存時產生不重複代碼。
             </p>
             <label htmlFor="supplier-code">
               公司代碼／登入帳號（系統生成）
