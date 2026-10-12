@@ -1,5 +1,4 @@
 "use client";
-import Image from "next/image";
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { useForm } from "react-hook-form";
@@ -29,14 +28,6 @@ export function LoginScreen() {
   return (
     <main className="login-page">
       <section className="login-intro">
-        <Image
-          className="company-logo"
-          src={brand.logo}
-          alt={brand.logoAlt}
-          width={140}
-          height={140}
-          unoptimized
-        />
         <h1>{brand.portalName}</h1>
         <p className="text-muted">{brand.englishName}</p>
         <p className="text-muted mt-3">虛構品牌 · 面試作品展示</p>

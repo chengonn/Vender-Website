@@ -11,3 +11,5 @@ coverage/
 /docs/pre-api-backup/
 
 /.secrets/
+portfolio-demo/.next/
+portfolio-demo/out/
